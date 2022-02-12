@@ -1,0 +1,43 @@
+:root{
+    --WhiteColor: #fff;
+    --BlackColor:#000;
+    --TextColor:#333;
+    --MainColor: rgb(223, 99, 17);
+    --navbar-height :38px;
+    --header--heigth:120px;
+
+
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+@keyframes FadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
